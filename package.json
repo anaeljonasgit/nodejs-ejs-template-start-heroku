@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "name": "sanoji-ejs-template-start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Anael Jonas",
+  "license": "ISC",
+  "description": ""
+}

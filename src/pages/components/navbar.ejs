@@ -1,0 +1,53 @@
+<div id="navbar-component-container">
+    <div id="navbar-component">
+        <h3>Navbar</h3>
+    </div>
+</div>
+
+<script>
+
+    let navbar_component_container_div = document.querySelector('#navbar-component-container');
+    let navbar_component_div = document.querySelector('#navbar-component');
+
+    const navbar_component = {
+        start() {
+            this.steps.firstDoSomething();
+            this.steps.secondDoAnotherThing();
+        },
+
+        steps: {
+            firstDoSomething() {
+
+            },
+
+            secondDoAnotherThing() {
+
+            }
+        },
+
+        actions: {
+            doSomeThingAnyTime() {
+
+            }
+        }
+    };
+
+    navbar_component.start();
+
+</script>
+
+<style>
+
+    #navbar-component-container {
+        width: 100%;
+        padding: 30px;
+        color: black;
+        background-color: whitered;
+        box-shadow: 0 0 40px rgba(0,0,0, 0.2);
+    }
+
+    #navbar-component {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+</style>
